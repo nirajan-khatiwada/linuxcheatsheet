@@ -1,3 +1,19 @@
+/var/www/html: Default web server root directory
+   - Location: /var/www/html
+
+Downloads folder: Default location
+   - Location: /home/username/Downloads
+
+Documents folder: Default location
+   - Location: /home/username/Documents
+
+Desktop folder: Default location
+   - Location: /home/username/Desktop
+
+
+
+
+
 cd: Change directory
    - Usage: cd [directory]
 
@@ -77,17 +93,6 @@ service apache2 restart: Restart Apache web server
 service apache2 stop: Stop Apache web server
    - Usage: service apache2 stop
 
-/var/www/html: Default web server root directory
-   - Location: /var/www/html
-
-Downloads folder: Default location
-   - Location: /home/username/Downloads
-
-Documents folder: Default location
-   - Location: /home/username/Documents
-
-Desktop folder: Default location
-   - Location: /home/username/Desktop
 
 chmod: Change file/folder permissions
    - Usage: chmod [permissions] [file/folder]
@@ -95,3 +100,23 @@ chmod: Change file/folder permissions
     is use to give permission to execute like ./filename.exe will execute only if it have permisiion to execute
    -chmode -r filename/foldername.txt is used to take permisiion (+is used to give permission and - is used to take permission)
    - Example: chmod +rwx file.txt
+
+Note:
+
+1)if there is space between foldername then we write foldername inside double inverted comma else it will do operation for two folder
+for example:
+mkdir New Folder   =>it will create two folder having name New and folder
+but,
+mkdir "New Folder" =>it will create a one folder having name New FOlder
+
+2)if we want to do operation on
+i)all file/folder then use *
+ii)do operation on all the file/folder having extension .exe then use *.exe
+iii)do operation on all the file/folder which is starting with hello then use hello*
+
+
+3)if we want to do operation then use relative path as possible 
+i)for eg:
+mv /home/nirajan/Downloads/index.html   /var/www/html/index.html
+
+
