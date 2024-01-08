@@ -1,0 +1,97 @@
+cd: Change directory
+   - Usage: cd [directory]
+
+ls: List files and directories
+   - Usage: ls [options] [path]
+
+pwd: Print working directory
+   - Usage: pwd
+
+sudo su: Switch to superuser (root)
+   - Usage: sudo su
+
+
+sudo: Execute a command with superuser privileges
+   - Usage: sudo [command]
+
+mkdir: Create a directory
+   - Usage: mkdir [directory name]
+
+dir: List files and directories (alternative to ls)
+   - Usage: dir [options] [path]
+
+mv: Move or rename files/directories
+   - Usage: mv [source] [destination]
+   - Example: mv /home/nirajan/Downloads /home/nirajan/Documents
+
+cp: Copy files/directories
+   - Usage: cp [source] [destination]
+   - Example: cp /home/nirajan/Downloads/file.txt /home/nirajan/Documents
+
+rm: Remove/delete files or directories
+   - Usage: rm [options] [file/directory]
+   - Remove directory and its contents: rm -r [directory]
+
+touch: Create an empty file
+   - Usage: touch [filename]
+
+cat: Display content of a file
+   - Usage: cat [filename]
+
+gedit: Open text editor (Gedit)
+   - Usage: gedit [filename]
+
+kill: Terminate a process by PID
+   - Usage: kill [PID]
+
+top: Display system processes and their resource usage
+   - Usage: top
+
+apt-get update: Update package lists
+   - Usage: apt-get update
+
+apt-get upgrade: Upgrade all installed packages
+   - Usage: apt-get upgrade
+
+apt-get install package: Install a package
+   - Usage: apt-get install [package]
+
+man: Display the manual for a command
+   - Usage: man [command]
+
+whoami: Display the current username
+   - Usage: whoami
+
+zip -r filename.zip foldername: Compress a folder recursively
+   - Usage: zip -r [filename.zip] [foldername]
+
+unzip filename: Extract a zip file
+   - Usage: unzip [filename]
+
+service apache2 start: Start Apache web server
+   - Usage: service apache2 start
+
+service apache2 restart: Restart Apache web server
+   - Usage: service apache2 restart
+
+service apache2 stop: Stop Apache web server
+   - Usage: service apache2 stop
+
+/var/www/html: Default web server root directory
+   - Location: /var/www/html
+
+Downloads folder: Default location
+   - Location: /home/username/Downloads
+
+Documents folder: Default location
+   - Location: /home/username/Documents
+
+Desktop folder: Default location
+   - Location: /home/username/Desktop
+
+chmod: Change file/folder permissions
+   - Usage: chmod [permissions] [file/folder]
+   -chmod +r file/foldername.txt  to give permission of read similarly +w is used to give permission to write and +x
+    is use to give permission to execute like ./filename.exe will execute only if it have permisiion to execute
+   -chmode -r filename/foldername.txt is used to take permisiion (+is used to give permission and - is used to take permission)
+   - Example: chmod +rwx file.txt
