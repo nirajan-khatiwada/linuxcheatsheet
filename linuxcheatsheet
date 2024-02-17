@@ -88,6 +88,9 @@ zip -r filename.zip foldername: Compress a folder recursively
 unzip filename: Extract a zip file
    - Usage: unzip [filename]
 
+apt install apache2:install apache
+   -Usage:apt install apache2
+
 service apache2 start: Start Apache web server
    - Usage: service apache2 start
 
@@ -97,8 +100,6 @@ service apache2 restart: Restart Apache web server
 service apache2 stop: Stop Apache web server
    - Usage: service apache2 stop
 
-apt install apache2:install apache
-   -Usage:apt install apache2
 
 apt install redis:install redis
    -Usage:apt install redis
@@ -111,6 +112,11 @@ service redis restart: Restart redis
 
 service redis stop: Stop redis
    - Usage: service redis stop
+
+apt install mysql-server:install mysql server
+   -Usage:apt install mysql-server
+
+same for mysql as of apache
 
 
 
