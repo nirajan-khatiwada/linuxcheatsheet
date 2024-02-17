@@ -97,6 +97,20 @@ service apache2 restart: Restart Apache web server
 service apache2 stop: Stop Apache web server
    - Usage: service apache2 stop
 
+apt install apache2:install apache
+   -Usage:apt install apache2
+
+apt install redis:install redis
+   -Usage:apt install redis
+
+service redis start: Start redis
+   - Usage: service redis start
+
+service redis restart: Restart redis
+   - Usage: service redis restart
+
+service redis stop: Stop redis
+   - Usage: service redis stop
 
 
 
