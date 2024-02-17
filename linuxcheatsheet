@@ -66,6 +66,10 @@ top: Display system processes and their resource usage
 apt-get update: Update package lists
    - Usage: apt-get update
 
+
+apt install path_of_.deb_file:to install the file
+    -Usage: apt install ./main.deb
+
 apt-get upgrade: Upgrade all installed packages
    - Usage: apt-get upgrade
 
@@ -92,6 +96,8 @@ service apache2 restart: Restart Apache web server
 
 service apache2 stop: Stop Apache web server
    - Usage: service apache2 stop
+
+
 
 
 chmod: Change file/folder permissions
