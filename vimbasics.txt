@@ -1,0 +1,13 @@
+Basics of vim
+
+=>vim filename to open file in vim
+
+=>Basic Modes
+Normal Mode: The default mode when you open a file. You can navigate, delete, copy, and paste text.
+Press Esc to return to Normal Mode from other modes.
+Insert Mode: For inserting text. Press i to enter Insert Mode.
+
+Common Commands
+:w: Save the current file (write changes).
+:q: Quit Neovim. Use :q! to force quit without saving changes.
+:wq or :x: Save changes and quit.
